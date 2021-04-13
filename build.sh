@@ -5,6 +5,8 @@
 #
 # This process uses a fork (https://github.com/dracula/slate) of the popular https://github.com/slatedocs/slate repo.
 # Slate is an implementation of the Middleman static-site generator. For more information, see https://github.com/slatedocs/slate/wiki.
+# Slate builds the site based on a single specially formated Markdown file that contains all details of the API.
+# A tool to convert an OpenAPI spec document into that Markdown file is called Widdershins (https://github.com/Mermade/widdershins).
 #
 # The intent of this script and instructions is to offer a consistent environment where it is easy to test
 # OpenAPI spec file changes and view the result in the built doc site. This script could be adapted for
