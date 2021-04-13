@@ -11,8 +11,10 @@
 # The intent of this script and instructions is to offer a consistent environment where it is easy to test
 # OpenAPI spec file changes and view the result in the built doc site. This script could be adapted for
 # production use. For example, each time the main doc site builds, re-build this as a subpath of that site.
+#
+# An example site built using this script is available at https://slatetest.netlify.app.
 
-# TODO
+# NOTE:
 # - There are warnings when running the Middleman server that "URI.unescape is obsolete".
 #   This is fixed in a later Middleman release "https://github.com/middleman/middleman/issues/2312#issuecomment-692393682".
 #    - This is already in Slate (current version 2.9.2 https://github.com/slatedocs/slate/blob/main/CHANGELOG.md)
